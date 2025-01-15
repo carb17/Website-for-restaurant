@@ -1,0 +1,26 @@
+.galeria {
+  display: flex;
+  justify-content: space-between;
+}
+
+.galeria img {
+  width: 80%;
+}
+
+.descripcion {
+  background-color: #f2994a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.descripcion p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.descripcion img {
+  max-width: 20%;
+  border: solid 5px #fff;
+}

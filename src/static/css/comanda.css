@@ -1,0 +1,39 @@
+.item-comanda {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 10px auto;
+}
+
+.item-comanda span {
+  display: block;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.item-comanda span:nth-child(1) {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.item-comanda span:nth-child(2),
+.item-comanda span:nth-child(3) {
+  color: #555;
+}
+
+.item-comanda span:nth-child(4) {
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.item-comanda:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}

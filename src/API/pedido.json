@@ -1,0 +1,14 @@
+{
+  "pedido": [
+    {
+      "ordenId": 1,
+      "items": [
+        {
+          "menuId": 1,
+          "cantidad": 2
+        }
+      ],
+      "precioTotal": 10000
+    }
+  ]
+}
